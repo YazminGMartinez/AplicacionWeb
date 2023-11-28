@@ -1,0 +1,64 @@
+.contenedor {
+    border: solid 1px D#6e4ccc;
+    width: 100%; 
+    max-width: 500px; 
+    margin: 0px auto; 
+    font-size: 30px;
+    padding:20px;
+    text-align: center;
+    min-height:100vh;
+    box-shadow: 0px 0px 10px 圖#CCC;
+    color: #220670;
+    font-family: Arial;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.titulo {
+    font-size:50px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px;
+    height:200px;
+}
+
+.caja-correo, .caja-password, .caja-usuario {
+    font-size: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px blue;
+    outline: none;
+    margin-top: 10px;
+}
+
+input::placeholder{
+    color: #ccc;
+    }
+
+.agrupador-correo, .agrupador-password, .agrupador-usuario { 
+    margin-top: 20px; 
+    text-align: left;
+}
+    
+.agrupador-boton { 
+    margin-top: 30px;
+}
+
+.boton-ingresar {
+    font-size: 30px; 
+    background-color: aqua;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.otros-botones {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.link-registro, .link-password {
+    color: 口#999;
+    display: block;
+}
